@@ -14,8 +14,10 @@ public class week3 {
         int result = 1;
         for(int i = 1; i<=num; i++){
             result *=i;
-            System.out.println("The factorial of " + num + " is " + result);
+
         }
+        System.out.println("The factorial of " + num + " is " + result + ".");
+
         return result;
 
 
