@@ -33,7 +33,9 @@ checkEven(7);
 
 //Returning the values
         findFactorial(5);
+
         findFactorial(3);
+
         findFactorial(10);
     }
 
