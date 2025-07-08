@@ -22,9 +22,19 @@ public class week3 {
 
 
 
+    }
 
+    public static int sumOfArray(int[] numbers){
+int sum = 0;
+for(int num : numbers){
+   sum+=num;
+}
+return sum;
 
     }
+
+
+
     public static void main(String[]args){
         //calling methods
 checkEven(8);
@@ -37,6 +47,15 @@ checkEven(7);
         findFactorial(3);
 
         findFactorial(10);
+
+
+        //Sum of array
+
+        int[] mynumbers = {4,5,6,7};
+        int total = sumOfArray(mynumbers);
+
+        System.out.println("Sum of array is:" + total);
     }
+
 
 }
